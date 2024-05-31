@@ -1,0 +1,57 @@
+body {
+    background: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin: 10%;
+}
+
+.counter_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.title{
+    display: block;
+    padding: 10%;
+    font-size: 500%;
+}
+
+.display_block {
+    display: block;
+    font-size: 500%;
+}
+
+.parameter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.decrease_btn {
+    padding: 5%;
+    margin-right: 10%;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset_btn{
+    padding: 5%;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.increase_btn{
+    padding: 5%;
+    margin-left: 10%;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
